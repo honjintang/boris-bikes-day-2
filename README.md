@@ -18,3 +18,17 @@ Objects | Messages
 Person |  
 Bike | bike_status
 
+### Combined stories
+
+Objects | Messages
+------- | --------
+Person |  
+Docking Station | bike_status
+Bike | release_bike
+
+###Diagram of interactions
+
+```
+Person --> bike_status --> true/false?
+release_bike <-- if bike_status is true
+```
